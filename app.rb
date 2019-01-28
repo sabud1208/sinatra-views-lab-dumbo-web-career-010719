@@ -8,6 +8,7 @@ class App < Sinatra::Base
  end
   
   get '/goodbye' do 
+<<<<<<< HEAD
     erb :goodbye
  end
 
@@ -15,6 +16,11 @@ class App < Sinatra::Base
     @today = Date.today.strftime("%A, %B %d, %Y")
     erb :date
   end
+=======
+    resp.status = 200
+  end
+
+>>>>>>> db40d3dec1b1d8c0ee22f528fd4c56238c5dd63f
 end
 
 
